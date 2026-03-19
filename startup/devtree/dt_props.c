@@ -8,8 +8,6 @@
  * - Array properties (u32 arrays)
  * - Phandle references
  *
- * Copyright (C) 2024 TechVeda
- * Author: Raghu Bharadwaj <raghu@techveda.org>
  *
  * License: Dual MIT/GPL
  */
@@ -200,6 +198,6 @@ static struct platform_driver dt_props_driver = {
 module_platform_driver(dt_props_driver);
 
 MODULE_LICENSE("Dual MIT/GPL");
-MODULE_AUTHOR("Raghu Bharadwaj <raghu@techveda.org>");
+MODULE_AUTHOR("Shaikh Shehajadali <Shaikh5793.ali@gmail.com>");
 MODULE_DESCRIPTION("Device Tree Properties Demo Driver");
 MODULE_VERSION("1.0");
