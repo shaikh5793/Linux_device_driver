@@ -8,7 +8,10 @@
  * - Reading from mapped registers
  * - Handling multiple memory regions
  *
+ * Copyright (C) 2024 TechVeda
+ * Author: Raghu Bharadwaj <raghu@techveda.org>
  *
+ * License: Dual MIT/GPL
  */
 
 #include <linux/module.h>
@@ -151,6 +154,6 @@ static struct platform_driver dt_mmio_driver = {
 module_platform_driver(dt_mmio_driver);
 
 MODULE_LICENSE("Dual MIT/GPL");
-MODULE_AUTHOR("Shaikh shehajadali <Shaikh5793.ali@gmail.com>");
+MODULE_AUTHOR("Raghu Bharadwaj <raghu@techveda.org>");
 MODULE_DESCRIPTION("Device Tree MMIO Demo Driver");
 MODULE_VERSION("1.0");
